@@ -19,7 +19,13 @@ var Todo = mongoose.model('Todo', {
     }
 });
 
+// module.exports = mongoose.models.Todo || mongoose.model('Todo', UsersSchema);
+
+
 module.exports = {Todo};
+
+// module.exports = Todo || mongoose.models.Todo;
+
 
 
 
